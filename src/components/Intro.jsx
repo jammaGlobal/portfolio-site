@@ -41,7 +41,7 @@ export default function Intro(){
                                 <br></br>
                             </p>
                             <div className="imgContainer">
-                                <img src="assets/me.jpg" alt="intro" />
+                                <img src="portfolio-site/assets/me.jpg" alt="intro" />
                                 <span className="caption">Location : Sunnybank. As you can see, wherever I travel to I always carry the city on my back.</span>
                             </div>  
                         </div>

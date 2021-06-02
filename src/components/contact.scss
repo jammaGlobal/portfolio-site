@@ -3,30 +3,50 @@
     margin-top: 10vh;
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(3px) brightness(100%);
     
     .container{
         overflow: hidden;
         .contact-section{
-            backdrop-filter: blur(1px);
+            
             h2 {
                 //font-size: 3rem;
                 //line-height: 20px;
                 text-align: center;
             }
+
+            .contact-blurb{
+                
+            }
             
 
-            .imgContainer{
-                width: 600px;
-                height: 600px;
+            .email-link{
                 display: flex;
-                align-items: center;
                 justify-content: center;
+                font-size: 15px;
+                text-decoration: none;
+
+            }
+            overflow: hidden;
+            .social-media{
+                //float: left;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
                 
-                img{
-                    
-                    height: 90%;
-                    
+                .linkedin{
+                    overflow: hidden;
+                    width:  100px;
+                    height: 100px;
                 }
+                .github{
+                    overflow: hidden;
+                    width:  105px;
+                    height: 105px;
+                }
+                //height: 100px;
+                //object-fit: cover;
             }
             
 

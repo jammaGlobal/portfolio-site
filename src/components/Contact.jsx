@@ -6,6 +6,22 @@ export default function Contact(){
             <div className="container">
                 <div className="contact-section">
                     <h2>contact</h2>
+
+                    <div className="contents">
+                            <span className="contact-blurb">I am available for immediate start and if you have any questions I would be happy to answer them via a face to face interview, phone or email. </span>
+                            <a className="email-link" href="mailto:jamey.blackman@gmail.com">
+                                <h1>jamey.blackman@gmail.com</h1>
+                            </a>
+                            <div className="social-media">
+                                <a className="linkedin" href="https://www.linkedin.com/in/jamey-blackman-2a12761a2/" target="_blank">
+                                    <img src="portfolio-site/assets/linkedin.svg" alt="" />
+                                </a>
+                                <a className="github" href="https://github.com/jammaGlobal" target="_blank">
+                                    <img src="portfolio-site/assets/github.svg" alt="" />
+                                </a>
+                            </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ export default function Projects(){
             <div className="container">
                 <div className="projects-section">
                     <h2>projects</h2>
-
+                    
                     <div className="grid">
                             {featuredProjects.map((project, index) => (
                                 <div className="wrapper" >
@@ -37,6 +37,7 @@ export default function Projects(){
 
                             ))}
                     </div>
+                    
                 </div>
             </div>
         </div>
