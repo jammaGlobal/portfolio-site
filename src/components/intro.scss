@@ -1,0 +1,100 @@
+
+.intro{
+    width: 80vw;
+    margin-top: 10vh;
+    //display: flex;
+    justify-content: center;
+    
+
+    .container{
+        overflow: hidden;
+
+        display: flex;
+        
+        .intro-section{
+            //text-align: center;
+            h2 {
+                // font-size: 3rem;
+                // line-height: 20px;
+                text-align: center;
+                backdrop-filter: blur(1px);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .blurb{
+                text-align: center;
+                //display: flex;
+                
+                font-style: italic;
+                font-size: 30px;
+                //margin-left: auto;
+                //margin-right: auto;
+            }
+
+            .container{
+                display: flex;
+                .column{
+                    text-align: center;
+                    flex: 50%;
+
+                    .pContainer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-left: 10%;
+                        padding-right: 10%;
+                        //flex-direction: row;
+                        
+                        // align-items: center;
+                        // justify-content: center;
+                        // overflow: hidden;
+                        // text-align: center;
+                        p{
+                            
+                            margin-left: auto;
+                            margin-right: auto;
+                            backdrop-filter: brightness(300%);
+                            
+                        }
+                    }
+                    
+                   
+                    .imgContainer{
+                        width: 80%;
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: auto;
+                        margin-right: auto;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        text-align: center;
+                        
+                        //vertical-align: top;
+                        //display: inline-block;
+
+                        .caption{
+
+                            display: block;
+                            padding-top: 35%;
+                            position: absolute;
+                            font-size: 12px;
+                            font-style: italic;
+                            
+                        }
+                        
+                    }
+                }
+                
+
+                
+            }
+            
+
+            
+            
+
+        }
+    }
+}
+

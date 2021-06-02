@@ -1,0 +1,44 @@
+import "./projects.scss"
+import {
+    featuredProjects,
+} from "../data";
+import Card from "./Card"
+import Fade from "react-reveal/Fade"
+import { useEffect, useState } from "react";
+
+export default function Projects(){
+    //const [data, setData] = useState([]);
+    //useEffect(() => {
+        //setData(featuredProjects);
+    //});
+
+
+    
+
+    return(
+        <div className="projects" id="projects">
+            <div className="container">
+                <div className="projects-section">
+                    <h2>projects</h2>
+
+                    <div className="grid">
+                            {featuredProjects.map((project, index) => (
+                                <div className="wrapper" >
+                                    <Card key={index}
+                                    
+                                    heading={project.title}
+                                    paragraph={project.para}
+                                    imgUrl ={project.img}
+                                    projectLink={project.link}
+
+                                    ></Card>
+                                </div>
+                                
+
+                            ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
