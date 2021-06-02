@@ -21,7 +21,7 @@ export const featuredProjects = [
         title: "Machine Learning Tasks",
         para: "Projects are written in python/ipynb, reports feature interpretation of results including performance metrics and confusion matrices. Current completed tasks: MultiVar Classifier for Statlog (Shuttle) dataset, MultiVar Classifier for Iris dataset.",
         img:
-            "./assets/nnML.png",
+            "./assets/nnmachinelearning.png",
         link: "https://github.com/jammaGlobal/machineLearningTasks"
         
     },
@@ -30,7 +30,7 @@ export const featuredProjects = [
         title: "Graph Theory Web App",
         para: "A NodeJs application that inputs a node name, distance, and a JSON file describing a set of nodes, each with an associated name, coordinates, and the other nodes to which it is connected. Outputs a visualisation using p5 display specific nodes based on the input conditions given. Full explanation of the app in the repo description.",
         img:
-            "./assets/nnML.png",
+            "./assets/nnmachinelearning.png",
         link: "https://github.com/jammaGlobal/shortestPathWebApp"
 
     }
