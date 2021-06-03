@@ -7,13 +7,6 @@ import Fade from "react-reveal/Fade"
 import { useEffect, useState } from "react";
 
 export default function Projects(){
-    //const [data, setData] = useState([]);
-    //useEffect(() => {
-        //setData(featuredProjects);
-    //});
-
-
-    
 
     return(
         <div className="projects" id="projects">

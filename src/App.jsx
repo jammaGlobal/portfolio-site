@@ -19,13 +19,19 @@ function App() {
     </div>
 
         
-          <div className="sections" id="sections">
-            <Intro/>
-            <Projects/>
-            <Blog/>
-            <Contact/>
+    <div className="sections" id="sections">
+      <Intro/>
+      <Projects/>
+      <Blog/>
 
-          </div>
+      <Contact/>
+      
+
+    </div>
+
+    {/* <div className="contactSection" id="contactSection"> 
+      
+    </div> */}
 
       
     </div>

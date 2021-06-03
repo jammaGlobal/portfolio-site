@@ -30,8 +30,26 @@ export const featuredProjects = [
         title: "Graph Theory Web App",
         para: "A NodeJs application that inputs a node name, distance, and a JSON file describing a set of nodes, each with an associated name, coordinates, and the other nodes to which it is connected. Outputs a visualisation using p5 display specific nodes based on the input conditions given. Full explanation of the app in the repo description.",
         img:
-            "./portfolio-site/assets/nnmachinelearning.png",
+            "./portfolio-site/assets/graphapp.png",
         link: "https://github.com/jammaGlobal/shortestPathWebApp"
 
+    },
+    {
+        id: 5,
+        title: "Time Zone Web App",
+        para: "An ASP.NET Core application that inputs a country name and returns the time in that country.",
+        img:
+            "./portfolio-site/assets/timezone.png",
+        link: "https://github.com/jammaGlobal/GloboTime"
+
+    }
+];
+
+export const blogPosts = [
+    {
+        id: 1,
+        title: "Critique of the Conceptual Framework of Autonomous Vehicles",
+        para: "Autonomous vehicles are one of the fore runners of AI consumer technologies in the circulated media, with companies like Tesla, Waymo, Uber, as well as traditional car manufacturers competing to successfully develop a car that will not require any human attention while driving. This paper attempts to perform clarifcation of the conceptual framework taken in by researchers and engineers when designing these AI pipelines for autonomous driving, specifcally perception mechanisms. One cause of the conceptual incoherence is postulated to be the rapidly demanding research and development driven by the speculative business model GAFA companies occupy.",
+        link: ""
     }
 ];
