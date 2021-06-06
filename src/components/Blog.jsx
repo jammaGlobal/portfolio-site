@@ -15,7 +15,7 @@ export default function Blog(){
                             {blogPosts.map((blogPost, index) => (
                                 <div className="wrapper" >
                                     <BlogCard key={index}
-                                    
+                                    date={blogPost.date}
                                     heading={blogPost.title}
                                     paragraph={blogPost.para}
                                     imgUrl ={blogPost.img}

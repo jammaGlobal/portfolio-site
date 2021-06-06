@@ -9,13 +9,13 @@ export default function Intro(){
                     <div className="blurb">
                         <p>
                         <br></br>
-                        I am a <b>BCompSci Graduate (Dec 2020)</b> looking to enter the economic sphere as a developer.
+                        <span>I am a <b>BCompSci Graduate (Dec 2020)</b> looking to enter the economic sphere as a developer.</span>
                         <br></br>
 
                         </p>                
                     </div>
 
-                    <div className="container">
+                    <div className="innerContainer">
                         <div className="column">
                             <div className="pContainer">
                             <p>

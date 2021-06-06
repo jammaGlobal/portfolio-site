@@ -2,9 +2,10 @@
 
 .card {
   
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 20px;
   
   .overlay{
   width: 230px;

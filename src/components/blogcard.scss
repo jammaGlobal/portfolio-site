@@ -4,10 +4,12 @@
   
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
+  border-radius: 20px;
+  background-color: white;
   
   .overlay{
-  width: 345px;
+  width: 690px;
   height: 230px;
   
   display: flex;
@@ -24,49 +26,71 @@
       overflow: hidden !important;
       
       //font-family: "Open Sans";
-      background: rgba(0, 0, 255, 0.05);
+      //background: rgba(0, 0, 255, 0.05);
       //background-size: contain;
       height: 100%;
-      text-align: center;
-      padding: 10px;
-      opacity: 0;
+      //text-align: right;
+      padding-left: 300px;
+      padding-top: 5px;
+      
       transition: all 500ms ease-in-out;
+      padding-right: 10px;
+
+      
       //transform: translate(0, 20px);
-      cursor: pointer;
-      h1 {
-        font-size: 14px;
-        color: white;
+      //cursor: pointer;
+      .date{
+        font-size: 13px;
+        color: $mainColor;
+      }
+
+      hr{
+        border-top: 2px solid $mainColor;
+      }
+      
+      .header{
+        font-size: 16px;
+        color: $mainColor;
       }
 
       .textContainer{
+        overflow: hidden !important;
         line-height: 13px;
+        
         .text {
-          font-size: 10px;
-          color: white;
-          background-color: $mainColor;
-          
+          font-size: 13px;
+          color: black;
           
         }
-        margin-bottom: 20px;
+
+        position: relative;
+        //background-color: aqua;
+
+      }
+
+      .textContainer:after{
+        position: absolute;
+        
+        display: flex;
+        bottom: 0;  
+        height: 100%;
+        width:  100%;
+        content: "";
+        background: linear-gradient(to top,
+          rgba(255,255,255, 1) 10%, 
+          rgba(255,255,255, 0) 80%);
       }
       
 
-      .btn {
-        background-color: black;
-        color: white;
-        padding: 10px;
-        text-decoration: none;
-      }
-      &:hover {
-        opacity: 1;
-        //transform: translate(0, 0px);
-        img {
-          -webkit-filter: blur(2px);
-          filter: blur(2px);
-        }
-
-        backdrop-filter: blur(1px) brightness(110%);
-      }
+      // .btn {
+      //   align-items: right;
+      //   background-color: black;
+      //   color: white;
+      //   padding: 10px;
+      //   text-decoration: none;
+      //   position: relative;
+      // }
+     
     
     }
   }

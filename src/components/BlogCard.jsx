@@ -1,7 +1,7 @@
 import React from "react"
 import "./blogcard.scss"
 
-const BlogCard = ({ heading, paragraph, imgUrl, projectLink }) => {
+const BlogCard = ({ heading, paragraph, imgUrl, projectLink, date }) => {
   return (
     <div
       className="blogcard"
@@ -14,7 +14,9 @@ const BlogCard = ({ heading, paragraph, imgUrl, projectLink }) => {
     >
       <div className="overlay">
         <div className="content">
+          <h3 className="date">{date}</h3>
           <h3 className="header">{heading}</h3>
+          <hr></hr>
           <div className="textContainer">
             <span className="text">{paragraph}</span>
           </div>
@@ -24,7 +26,7 @@ const BlogCard = ({ heading, paragraph, imgUrl, projectLink }) => {
             rel="noopener noreferrer"
             className="btn"
           >
-            Explore
+            
           </a>
         </div>
       </div>
