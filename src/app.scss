@@ -1,4 +1,5 @@
 //@import "./include-media.scss";
+@import "global.scss";
 
 .app{
     height: 100vh;
@@ -41,6 +42,13 @@
             width: 100vw;
             height: calc(100vh - 70px);
             scroll-snap-align: start;
+        }
+
+        .contact {
+            @include intro{
+                height: calc(100vh - 20vh);
+            }
+            
         }
         
         .contact {

@@ -1,10 +1,16 @@
 $mainColor: #0000EE;
 
 $width: 768px;
-$yeahwidth: 686px;
+$introWidth: 1030px;
 
 @mixin mobile {
     @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin intro {
+    @media (max-width: #{$introWidth}){
         @content
     }
 }
