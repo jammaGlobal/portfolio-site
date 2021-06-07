@@ -43,10 +43,10 @@
             height: calc(100vh - 70px);
             scroll-snap-align: start;
         }
-
-        .contact {
-            @include intro{
-                height: calc(100vh - 20vh);
+        
+        .intro {
+                @include mobile{
+                    height: calc(120vh);
             }
             
         }

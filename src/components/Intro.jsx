@@ -19,8 +19,11 @@ export default function Intro(){
                         <div className="column">
                             <div className="pContainer">
                             <p>
-                                <br></br>
-                                <br></br>
+                                <div className="break">
+                                    <br></br>
+                                    <br></br>
+                                </div>
+                                
                                 Having ready-to-hand knowledge and experience in Java, Javascript (NodeJS, Express, React), C#, C++, Python, HTML, CSS, SQL database formation and management through university and self-learning projects, in addition to a formal knowledge of data structures, algorithms, scheduling and memory management, and object orientated programming acquired in my time in university creating a host of terminal toy programs and studying computer science theory, I feel I could be a great addition to your software development team.
                                 <br></br>
                                 <br></br>
@@ -36,13 +39,13 @@ export default function Intro(){
                        
                         </div>
                         <div className="column">
-                            <p>
+                            <p className="imageBreak">
                                 <br></br>
                                 <br></br>
                             </p>
                             <div className="imgContainer">
                                 <img src="portfolio-site/assets/me.jpg" alt="intro" />
-                                <span className="caption">Location : Sunnybank. As you can see, wherever I travel to I always carry the city on my back.</span>
+                                {/*<span className="caption">Location : Sunnybank. As you can see, wherever I travel to I always carry the city on my back.</span>*/}
                             </div>  
                         </div>
                         
