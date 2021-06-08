@@ -30,8 +30,9 @@
       //background-size: contain;
       height: 100%;
       //text-align: right;
-      padding-left: 300px;
-      padding-top: 5px;
+      padding-left: 245px;
+      padding-top: 7px;
+      //padding-right: 500px;
       
       transition: all 500ms ease-in-out;
       padding-right: 10px;
@@ -51,6 +52,7 @@
       .header{
         font-size: 16px;
         color: $mainColor;
+ 
       }
 
       .textContainer{
@@ -82,14 +84,24 @@
       }
       
 
-      // .btn {
-      //   align-items: right;
-      //   background-color: black;
-      //   color: white;
-      //   padding: 10px;
-      //   text-decoration: none;
-      //   position: relative;
-      // }
+      .btn {
+         
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        
+        
+        //background-color: black;
+        // color: white;
+        //padding-left: 50px;
+        // text-decoration: none;
+        // position: relative;
+        .enter{
+          
+          width:15px;
+          height:15px;
+        }
+      }
      
     
     }
