@@ -1,3 +1,9 @@
+//  ./portfolio-site/assets/qualisoft2.PNG
+//  ./portfolio-site/assets/compiler.PNG
+//  ./portfolio-site/assets/nnmachinelearning.png
+//  ./portfolio-site/assets/graphapp.png
+//  ./portfolio-site/assets/timezone.png
+
 export const featuredProjects = [
     {
         id: 1,
@@ -50,8 +56,8 @@ export const blogPosts = [
         id: 1,
         title: "Critique of the Conceptual Framework of Autonomous Vehicles",
         para: "Autonomous vehicles are one of the fore runners of AI consumer technologies in the circulated media, with companies like Tesla, Waymo, Uber, as well as traditional car manufacturers competing to successfully develop a car that will not require any human attention while driving. This paper attempts to perform clarifcation of the conceptual framework taken in by researchers and engineers when designing these AI pipelines for autonomous driving, specifcally perception mechanisms. One cause of the conceptual incoherence is postulated to be the rapidly demanding research and development driven by the speculative business model GAFA companies occupy.",
-        link: "./portfolio-site/assets/comp3330_hiPhiPaper_c3183495.pdf",
-        img: "./portfolio-site/assets/chariotSmall.jpg",
+        link: "./assets/comp3330_hiPhiPaper_c3183495.pdf",
+        img: "./assets/chariotSmall.jpg",
         date: "7/06/21"
     }
 

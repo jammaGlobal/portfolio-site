@@ -140,7 +140,8 @@
                         text-align: center;
 
                         @include mobile{
-                            width: 6%;
+                            width: 6%  !important;
+                            height:  6% !important;
                             
                         }
                         
