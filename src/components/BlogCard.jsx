@@ -26,7 +26,7 @@ const BlogCard = ({ heading, paragraph, imgUrl, projectLink, date }) => {
             rel="noopener noreferrer"
             className="btn"
           >
-            <img src="portfolio-site/assets/enter.jpg" alt="enter" className="enter"/>
+            <img src="assets/enter.jpg" alt="enter" className="enter"/>
           </a>
         </div>
       </div>

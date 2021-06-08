@@ -16,10 +16,10 @@ export default function Contact(){
                             </a>
                             <div className="social-media">
                                 <a className="linkedin" href="https://www.linkedin.com/in/jamey-blackman-2a12761a2/" target="_blank">
-                                    <img src="portfolio-site/assets/linkedin.svg" alt="" className="linkedinImage"/>
+                                    <img src="assets/linkedin.svg" alt="" className="linkedinImage"/>
                                 </a>
                                 <a className="github" href="https://github.com/jammaGlobal" target="_blank">
-                                    <img src="portfolio-site/assets/github.svg" alt="" />
+                                    <img src="assets/github.svg" alt="" />
                                 </a>
                             </div>
                     </div>
