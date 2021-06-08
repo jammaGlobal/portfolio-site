@@ -5,12 +5,22 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+  @include mobile{
+    //background-position: top;
+
+    background-image: none !important;
+  }
   border-radius: 20px;
   background-color: white;
   
   .overlay{
   width: 690px;
   height: 230px;
+
+  @include mobile{
+    width: 230px;
+    height: 350px;
+  }
   
   display: flex;
   //flex-direction: column;
@@ -30,17 +40,24 @@
       //background-size: contain;
       height: 100%;
       //text-align: right;
+      @include mobile{
+        padding: 0;
+      }
       padding-left: 245px;
       padding-top: 7px;
       //padding-right: 500px;
       
       transition: all 500ms ease-in-out;
       padding-right: 10px;
+      @include mobile{
+        padding: 10px;
 
+      }
       
       //transform: translate(0, 20px);
       //cursor: pointer;
       .date{
+        
         font-size: 13px;
         color: $mainColor;
       }
@@ -97,7 +114,11 @@
         // text-decoration: none;
         // position: relative;
         .enter{
-          
+          @include mobile{
+            position: absolute;
+            padding-bottom: 42px;
+    
+          }
           width:15px;
           height:15px;
         }
