@@ -1,6 +1,11 @@
 @import "../global.scss";
 
 
+* {
+    margin: 0;
+   padding: 0;
+}
+
 .intro{
     width: 80vw;
     margin-top: 10vh;
@@ -141,7 +146,7 @@
 
                         @include mobile{
                             width: 6%  !important;
-                            height:  6% !important;
+                            height:  auto !important;
                             
                         }
                         
