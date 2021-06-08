@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .contact{
     width: 80vw;
     margin-top: 10vh;
@@ -15,15 +17,22 @@
                 text-align: center;
             }
 
-            .contact-blurb{
-                
+            .blurb-container{
+                text-align: center;
+                @include mobile{
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    font-size: 12px;
+                }
+                padding-left: 200px;
+                padding-right: 200px;
             }
             
 
             .email-link{
                 display: flex;
                 justify-content: center;
-                font-size: 15px;
+                font-size: 9px;
                 text-decoration: none;
 
             }
@@ -33,17 +42,28 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-
+                //justify-content: space-evenly;
+                
                 
                 .linkedin{
                     overflow: hidden;
-                    width:  100px;
-                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 10px;
+                    .linkedinImage{
+                        width:  42px;
+                        height: 42px;
+                    }
+                    
+                    //padding-right: 100px;
+                    //padding-bottom: 100px;
+                    //background-color: aqua;
                 }
                 .github{
                     overflow: hidden;
-                    width:  105px;
-                    height: 105px;
+                    width:  50px;
+                    height: 50px;
+                    
                 }
                 //height: 100px;
                 //object-fit: cover;
