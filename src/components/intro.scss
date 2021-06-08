@@ -47,6 +47,7 @@
                // text-align: center;
                
                //background-color: brown;
+               backdrop-filter: brightness(300%);
                 display: flex; 
                 flex-wrap: wrap; 
                 overflow: hidden;
@@ -54,6 +55,7 @@
                     display: inline-block;
                     width: 90vw;
                     text-align: center;
+                    padding-bottom: 10px;
                     
                 }
                 span{
@@ -100,7 +102,8 @@
                         padding-left: 10%;
                         padding-right: 10%;
                         @include mobile{
-                            font-size: 12px;
+                            padding-top: 10px;
+                            font-size: 11px;
                             flex-wrap: wrap;
                             padding-left: 47%;
                             padding-right: 47%;
@@ -137,7 +140,8 @@
                         text-align: center;
 
                         @include mobile{
-                            width: 4%;
+                            width: 6%;
+                            
                         }
                         
                         //vertical-align: top;

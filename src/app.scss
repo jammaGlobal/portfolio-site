@@ -46,13 +46,16 @@
         
         .intro {
                 @include mobile{
-                    height: calc(120vh);
+                    height: calc(140vh);
             }
             
         }
         
         .contact {
             height: calc(100vh - 50vh);
+                @include mobile{
+                    height: calc(100vh - 70vh);;
+            }
         }
     }
 

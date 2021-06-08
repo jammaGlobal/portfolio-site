@@ -17,26 +17,50 @@
         //padding: 10px;
 
         .projects-section{
-            h2 {
-                //font-size: 3rem;
-                //line-height: 20px;
-                text-align: center;
-              }
+            .headerContainer{
+                @include mobile{
+                    background-color: aqua;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    
+                    
+                }
+                
+                h2 {
+                
+                    @include mobile{
+                        
+                        position: absolute;
+                        
+                    }
+                    //font-size: 3rem;
+                    //line-height: 20px;
+                    text-align: center;
+                  }
+            }
+            
 
-              overflow: hidden;
-              @include mobile{
+            overflow: hidden;
+
+            @include mobile{
                 overflow:scroll;
             }
-            .grid{
-                display: grid;
-                margin-top: 20px;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 15px;
-                @include mobile{
-                    grid-template-columns: repeat(1, 1fr);
-                }
 
+            .gridSection{
+                .grid{
+                    display: grid;
+                    margin-top: 20px;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 15px;
+                    @include mobile{
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+    
+                }
             }
+            
         }
     }
 }
