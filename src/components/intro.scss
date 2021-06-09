@@ -110,8 +110,8 @@
                             padding-top: 10px;
                             font-size: 11px;
                             flex-wrap: wrap;
-                            padding-left: 47%;
-                            padding-right: 47%;
+                            // padding-left: 47%;
+                            // padding-right: 47%;
                         }
                         //flex-direction: row;
                         
@@ -135,7 +135,8 @@
                    
                     .imgContainer{
                         width: 80%;
-                        display: flex;
+                        height: auto !important;
+                       display: flex;
                         flex-direction: row;
                         margin-left: auto;
                         margin-right: auto;
@@ -144,10 +145,18 @@
                         overflow: hidden;
                         text-align: center;
 
-                        @include mobile{
-                            width: 6%  !important;
-                            height:  auto !important;
-                            
+                        
+
+                        .image{
+                            @include mobile{
+                                width: 57%  !important;
+                                height: auto !important;
+                                //align-self: center;
+                               // max-width: 6%;
+                                //max-height:  auto !important;
+                                object-fit:  contain !important;
+                                
+                            }
                         }
                         
                         //vertical-align: top;
