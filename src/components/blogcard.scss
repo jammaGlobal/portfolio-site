@@ -33,6 +33,7 @@
   overflow: hidden !important;
   
     .content {
+
       overflow: hidden !important;
       
       //font-family: "Open Sans";
@@ -69,16 +70,23 @@
       .header{
         font-size: 16px;
         color: $mainColor;
+        .titleLink{
+          text-decoration: none;
+          color: inherit;
+        }
  
       }
 
       .textContainer{
         overflow: hidden !important;
         line-height: 13px;
+        //background-color: aqua;
         
         .text {
+          border-radius: 20px;
           font-size: 13px;
           color: black;
+          //padding-bottom: 100px;
           
         }
 
@@ -89,14 +97,14 @@
 
       .textContainer:after{
         position: absolute;
-        
+
         display: flex;
         bottom: 0;  
         height: 100%;
         width:  100%;
         content: "";
         background: linear-gradient(to top,
-          rgba(255,255,255, 1) 10%, 
+          rgba(255,255,255, 1) 20%, 
           rgba(255,255,255, 0) 80%);
       }
       
@@ -117,6 +125,7 @@
           @include mobile{
             position: absolute;
             padding-bottom: 42px;
+            display: none;
     
           }
           width:15px;

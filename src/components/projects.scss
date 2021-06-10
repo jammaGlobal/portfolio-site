@@ -17,24 +17,11 @@
         //padding: 10px;
 
         .projects-section{
+            
             .headerContainer{
-                @include mobile{
-                    background-color: aqua;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    
-                    
-                }
                 
                 h2 {
                 
-                    @include mobile{
-                        
-                        position: absolute;
-                        
-                    }
                     //font-size: 3rem;
                     //line-height: 20px;
                     text-align: center;
@@ -42,13 +29,15 @@
             }
             
 
-            overflow: hidden;
-
-            @include mobile{
-                overflow:scroll;
-            }
+            
 
             .gridSection{
+                overflow: hidden;
+
+                @include mobile{
+                    overflow:scroll;
+                }
+                
                 .grid{
                     display: grid;
                     margin-top: 20px;

@@ -15,7 +15,15 @@ const BlogCard = ({ heading, paragraph, imgUrl, projectLink, date }) => {
       <div className="overlay">
         <div className="content">
           <h3 className="date">{date}</h3>
-          <h3 className="header">{heading}</h3>
+          <h3 className="header">
+            <a href={projectLink ? projectLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="titleLink"
+            >
+            {heading}
+            </a>
+          </h3>
           <hr></hr>
           <div className="textContainer">
             <span className="text">{paragraph}</span>
@@ -26,7 +34,7 @@ const BlogCard = ({ heading, paragraph, imgUrl, projectLink, date }) => {
             rel="noopener noreferrer"
             className="btn"
           >
-            <img src="assets/enter.jpg" alt="enter" className="enter"/>
+            <img src="portfolio-site/assets/enter.jpg" alt="enter" className="enter"/>
           </a>
         </div>
       </div>
