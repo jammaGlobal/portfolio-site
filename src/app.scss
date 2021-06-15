@@ -44,18 +44,25 @@
             height: calc(100vh - 70px);
             scroll-snap-align: start;
         }
+
+        .projects{
+            @include mobile{
+                //height: calc(200vh);
+                height: calc(1300px);
+            }
+        }
         
         .intro {
-            //     @include mobile{
-            //         height: calc(140vh);
-            // }
+                @include shortHeight {
+                    height: calc(110vh);
+                }
             
         }
         
         .contact {
             height: calc(100vh - 50vh);
                 @include mobile{
-                    height: calc(100vh - 70vh);;
+                    height: calc(100vh - 70vh);
             }
         }
     }

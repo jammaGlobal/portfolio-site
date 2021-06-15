@@ -2,9 +2,16 @@ $mainColor: #0000EE;
 
 $width: 768px;
 $introWidth: 1030px;
+$height: 708px;
 
 @mixin mobile {
     @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin shortHeight {
+    @media (max-height: #{$height}) and (max-width: #{$width}){
         @content
     }
 };
