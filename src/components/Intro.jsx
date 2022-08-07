@@ -9,7 +9,7 @@ export default function Intro(){
                     <div className="blurb">
                         <p>
                         <br></br>
-                        <span>I am a <b>BCompSci Graduate (Dec 2020)</b> looking to enter the economic sphere as a developer.</span>
+                        <span>I am a junior full stack developer looking to expand my skills and contribute efforts to fulfilling projects.</span>
                         <br></br>
 
                         </p>                
@@ -24,16 +24,15 @@ export default function Intro(){
                                     <br></br>
                                 </div>
                                 
-                                Having ready-to-hand knowledge and experience in Java, Javascript (NodeJS, Express, React), C#, C++, Python, HTML, CSS, SQL database formation and management through university and self-learning projects, in addition to a formal knowledge of data structures, algorithms, scheduling and memory management, and object orientated programming acquired in my time in university creating a host of terminal toy programs and studying computer science theory, I feel I could be a great addition to your software development team.
+                                In the past year I have gained commercial full stack experience working on software projects using the Spring Boot framework, React, SCSS, JanusGraph/Apache Gremlin, SQL, Jenkins for CI/CD, and BitBucket for code colloboration.
+                                During my bachelor of computer science at Univesity of Newcastle (grad. Dec 2020) I attained formal knowledge of data structures, 
+                                algorithms, scheduling and memory management, object orientated programming, SQL database formation and management through toy programs and studying computer science theory.
+                                I have also maintained self-learning efforts with projects that utilise Kotlin and React Native. 
                                 <br></br>
                                 <br></br>
-                                My soft skills in team coordination have been cultivated through group projects in courses dealing with software quality,
-                                system analysis/design, and UI/UX, which required the use of git version control, communication platforms like Slack and
-                                Notion, and participation in Agile software development methodology. When it comes to QA experience I have contributed
-                                to design and testing documentation and used JUnit for testing in projects. Further cultivation has occurred during my
-                                years of volunteering work in Marine Rescue, which required dealing with divergent perspectives amongst members not
-                                of contemporary organisation cultures, and came with critical responsibilities especially during rescues dealing with other
-                                emergency services.
+                                My soft skills in team coordination have been cultivated in the last year through Agile/Scrum practices via communication platforms Jira, Confluence and Microsoft Teams.
+                                The activities and ceremonies of scrums, sprints, sprint retrospectives, backlog refinements, have taught me the value of visibility, subtasking, ability to communicate 
+                                with the entire devevlopment team, and comprehensive documentation, in the classical sense as well as with authoring and commenting on tasks to provide scope and context for present and future reading.
                             </p>
                             </div>
                        
