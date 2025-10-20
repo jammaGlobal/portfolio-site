@@ -9,7 +9,7 @@ export default function Intro(){
                     <div className="blurb">
                         <p>
                         <br></br>
-                        <span>I am a junior full stack developer looking to expand my skills and contribute efforts to fulfilling projects.</span>
+                        <span>I am a full stack developer looking to expand my skills and contribute efforts to fulfilling projects.</span>
                         <br></br>
 
                         </p>                
@@ -24,15 +24,10 @@ export default function Intro(){
                                     <br></br>
                                 </div>
                                 
-                                In the past year I have gained commercial full stack experience working on software projects using the Spring Boot framework, React, SCSS, JanusGraph/Apache Gremlin, SQL, Jenkins for CI/CD, and BitBucket for code colloboration.
-                                During my bachelor of computer science at Univesity of Newcastle (grad. Dec 2020) I attained formal knowledge of data structures, 
-                                algorithms, scheduling and memory management, object orientated programming, SQL database formation and management through toy programs and studying computer science theory.
-                                I have also maintained self-learning efforts with projects that utilise Kotlin and React Native. 
+                                I possess 4 years of professional experience in Software Engineering in which I have gained an understanding of design patterns and the software development lifecycle working on new and legacy software applications, implementing service oriented architecture, in-house libraries/middleware, APIs, maintaining CI/CD pipelines and configuring various cloud resources/networking services, building UI/UX designed frontends, and acting in DBA and application support roles. 
                                 <br></br>
                                 <br></br>
-                                My soft skills in team coordination have been cultivated in the last year through Agile/Scrum practices via communication platforms Jira, Confluence and Microsoft Teams.
-                                The activities and ceremonies of scrums, sprints, sprint retrospectives, backlog refinements, have taught me the value of visibility, subtasking, ability to communicate 
-                                with the entire devevlopment team, and comprehensive documentation, in the classical sense as well as with authoring and commenting on tasks to provide scope and context for present and future reading.
+                                Working in several cross-functional team structures, including Agile/Scrum environments, has taught me the value of visibility, knowledge-sharing, documentation, communication with the immediate team and at times with the entire development/management cohort.
                             </p>
                             </div>
                        

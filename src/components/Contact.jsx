@@ -9,7 +9,7 @@ export default function Contact(){
 
                     <div className="contents">
                             <div className="blurb-container">
-                                <span className="contact-blurb">If you are an employer and looking to hire, or have any questions I would be happy to respond via a face to face interview, phone, email or message via linkedin. </span>
+                                <span className="contact-blurb">If you are an employer and looking to hire, if you were interested in reviewing my resume or have any questions I would be happy to respond via a face to face interview, phone, email or message via linkedin. </span>
                             </div>
                             <a className="email-link" href="mailto:jamey.blackman@gmail.com">
                                 <h1>jamey.blackman@gmail.com</h1>
