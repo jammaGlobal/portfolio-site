@@ -5,7 +5,7 @@ export default function Intro(){
         <div className="intro" id="intro">
             <div className="container">
                 <div className="intro-section">
-                    <h2>the bio</h2>
+                    <h2>bio</h2>
                     <div className="blurb">
                         <p>
                         <br></br>
