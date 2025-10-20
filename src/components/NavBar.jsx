@@ -18,8 +18,6 @@ export default function NavBar(){
                     </div>*/}
                     <a href="#projects" className="projectsIndex"> projects</a>
                     <a href="#blog" className="blogIndex"> blog</a>
-                    <a href="#contact" className="contactIndex"> contact</a>
-
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ export default function Intro(){
                     <div className="blurb">
                         <p>
                         <br></br>
-                        <span>I am a full stack developer looking to expand my skills and contribute efforts to fulfilling projects.</span>
+                        <span>I am a mid level full stack developer looking to expand my skills and contribute efforts to fulfilling projects.</span>
                         <br></br>
 
                         </p>                
@@ -30,7 +30,6 @@ export default function Intro(){
                                 Working in several cross-functional team structures, including Agile/Scrum environments, has taught me the value of visibility, knowledge-sharing, documentation, communication with the immediate team and at times with the entire development/management cohort.
                             </p>
                             </div>
-                       
                         </div>
                         <div className="column">
                             <p className="imageBreak">

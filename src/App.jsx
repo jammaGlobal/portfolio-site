@@ -21,10 +21,11 @@ function App() {
         
     <div className="sections" id="sections">
       <Intro/>
+      <Contact/>
       <Projects/>
       <Blog/>
 
-      <Contact/>
+      {/* <Contact/> */}
       
 
     </div>

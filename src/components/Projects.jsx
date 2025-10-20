@@ -13,7 +13,7 @@ export default function Projects(){
             <div className="container">
                 <div className="projects-section">
                     <div className="headerContainer">
-                        <h2>past uni/self learning projects</h2>
+                        <h2>past uni/self learning projects (2020-2021)</h2>
                     </div>
 
                     

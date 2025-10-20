@@ -41,8 +41,10 @@
             align-items: center;
             justify-content: center;
             width: 100vw;
-            height: calc(100vh - 70px);
+            // height: calc(100vh - 70px);
             scroll-snap-align: start;
+            margin-bottom: 2vh;
+
         }
 
         .projects{
@@ -58,11 +60,18 @@
                 }
             
         }
+
+        .blog {
+                @include shortHeight {
+                    height: calc(110vh);
+                }
+            margin-bottom: 10vh;  
+        }
         
         .contact {
-            height: calc(100vh - 50vh);
+            height: calc(100vh - 85vh);
                 @include mobile{
-                    height: calc(100vh - 70vh);
+                    height: calc(100vh - 85vh);
             }
         }
     }
